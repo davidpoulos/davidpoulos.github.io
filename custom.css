@@ -5,3 +5,7 @@
 body {
   background-color: yellow;
 }
+
+h2:hover {
+    color: blue;
+}
