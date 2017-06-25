@@ -15,6 +15,7 @@
 
  <!-- CUSTOM CSS/JS -->
  <link rel="stylesheet" href="./custom.css" />
+ <script type="text/javascript" src="./custom.js"></script>
 
 
 
@@ -23,7 +24,7 @@
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" style="color: white; font-family: Futura; font-size: 30px;" href="#">David Stephen Poulos</a>
+        <a id="portfolio_name"class="navbar-brand" style="color: white; font-family: Futura; font-size: 30px;" href="#">David Stephen Poulos</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://github.com/davidpoulos" class="fa fa-github" style="font-size:36px; color: white"></a></li>
@@ -61,7 +62,7 @@
       </div>
 
       <div class="col-md-4">
-        <h2 style="font-family: Futura">Front End Development</h2>
+        <h2 style="font-family: Futura" id="f_e_d">Front End Development</h2>
         <label>Languages</label>
         <ul>
           <li>HTML5</li>
@@ -75,12 +76,23 @@
         </ul>
 
         <h2 style="font-family: Futura">Back End Development</h2>
-        <label>Languages</label>
-        <ul>
-          <li>Java</li>
-          <li>NodeJS</li>
-          <li>PHP</li>
-        </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <label>Languages</label>
+            <ul>
+              <li>Java</li>
+              <li>NodeJS</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <label>Build Tools</label>
+            <ul>
+              <li>Maven</li>
+            </ul>
+          </div>
+        </div>
+
         <label>Frameworks</label>
         <ul>
           <li>Spring MVC</li>
@@ -94,13 +106,13 @@
         </ul>
       </div>
 
-
+<!-- PERSONAL PROJECTS -->
       <div class="col-md-4">
         <h2 style="font-family: Futura;">Personal Projects</h2>
       </div>
     </div>
 
-    <!-- PERSONAL PROJECTS -->
+
 
   </div>
 </body>
