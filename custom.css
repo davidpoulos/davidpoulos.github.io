@@ -3,9 +3,28 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: #480586;
 }
 
 h2:hover {
-    color: blue;
+    color:white;
+}
+
+.custom-bar {
+  font-family: 'Atomic Age', cursive;
+  font-size: 32px;
+  color: blue;
+}
+
+li {
+  color: pink;
+}
+
+label {
+  color: cyan;
+}
+
+h2 {
+  color: #ff48c4;
+  font-family: 'Pacifico', cursive;
 }
