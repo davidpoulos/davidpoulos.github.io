@@ -3,28 +3,15 @@
 }
 
 body {
-  background-color: #480586;
+  /* 353839 */
+  
+  background-color: #1B1B1B;
 }
 
-h2:hover {
-    color:white;
+h3 {
+  color: white;
 }
 
-.custom-bar {
-  font-family: 'Atomic Age', cursive;
-  font-size: 32px;
-  color: blue;
-}
-
-li {
-  color: pink;
-}
-
-label {
-  color: cyan;
-}
-
-h2 {
-  color: #ff48c4;
-  font-family: 'Pacifico', cursive;
+div {
+  text-align: center;
 }
